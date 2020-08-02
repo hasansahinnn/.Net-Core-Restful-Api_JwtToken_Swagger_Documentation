@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.AppointmentController.AppointmentGet(System.Object)">
+            <summary>
+            AppointmentGet
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {sessionkey}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.DeleteGetAppointment(System.Object)">
+            <summary>
+            DeleteGetAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId=user.Id,sessionkey=sessionkey }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.RatesGet(System.Object)">
+            <summary>
+            RatesGet
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId=user.Id,sessionkey=sessionkey}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.UpdateRate(System.Object)">
+            <summary>
+            UpdateRate
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment,user,ratetext,Note}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.AddFiles(System.Object)">
+            <summary>
+            AddFiles
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {filename = filename, appointmentId = appointment1.Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.AppointmentPrivate(System.Object)">
+            <summary>
+            AppointmentPrivate
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment = appointment }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.getAppointments(System.Object)">
+            <summary>
+            getAppointments
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.Appointments(System.Object)">
+            <summary>
+            Appointments
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointmentdb=appointmentsdb,date=date,IsNextDate=IsNextDate}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.NextAppointment(System.Object)">
+            <summary>
+            NextAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { appointmentsdb, appointdate}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.NextAppointment2(System.Object)">
+            <summary>
+            NextAppointment2
+            </summary>
+            <param name="datas"></param>,
+            <remarks>
+            { appointmentsdb, appointdate}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.LeftArrow(System.Object)">
+            <summary>
+            LeftArrow
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { appointmentsdb, appointdate}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.RightArrow(System.Object)">
+            <summary>
+            RightArrow
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { appointmentsdb, appointdate}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.AppointmentDetailUpdate(System.Object)">
+            <summary>
+            AppointmentDetailUpdate
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment,appointdetailfiles,AppointmentNote}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.DeleteAppointmentFile(System.Object)">
+            <summary>
+            DeleteAppointmentFile
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.GetTakeAppointment(System.Object)">
+            <summary>
+            GetTakeAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointmentKey}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.TakeDonation(System.Object)">
+            <summary>
+            TakeDonation
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment,user}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.Donation(System.Object)">
+            <summary>
+            Donation
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {donation}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.RandevuOdemesi">
+            <summary>
+            RandevuOdemesi
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.LiveChatAppointment(System.Object)">
+            <summary>
+            LiveChatAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.LiveChatProcess(System.Object)">
+            <summary>
+            LiveChatProcess
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment, user ,IsDoctor}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.GetAppointmentDetail(System.Object)">
+            <summary>
+            GetAppointmentDetail
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {sessionkey}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.GetAllAppointment(System.Object)">
+            <summary>
+            GetAllAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId=user.Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.DateFilterAppoint(System.Object)">
+            <summary>
+            DateFilterAppoint
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Allappointments,end,start}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AppointmentController.AppointmentCheck(System.Object)">
+            <summary>
+            AppointmentCheck
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId=user.Id,startdate,finishdate }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CityController.Get(System.Object)">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {CountryId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ContactController.ContactSave(System.Object)">
+            <summary>
+            ContactSave
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Mail=contact.Mail,Subject=contact.Subject, Name=contact.Name,Phone=contact.Phone,Message=contact.Message,validationcheck=validationcheck,validation=validation}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CountryController.Get">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CountyController.Get(System.Object)">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {CityId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.GetDailyCheck(System.Object)">
+            <summary>
+            GetDailyCheck
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id = Id, UserId = GetUser().Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimGetDailyCheckDetailList(System.Object)">
+            <summary>
+            SaglikcimGetDailyCheckDetailList
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimGetDailyCheckCreate(System.Object)">
+            <summary>
+            SaglikcimGetDailyCheckCreate
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id = Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimAddDailyCheck(System.Object)">
+            <summary>
+            SaglikcimAddDailyCheck
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id, Values, files}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimDailyCheckUpdateGet(System.Object)">
+            <summary>
+            SaglikcimDailyCheckUpdateGet
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { Key=Key, UserId = GetUser().Id }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimUpdateDailyCheckDetail(System.Object)">
+            <summary>
+            SaglikcimUpdateDailyCheckDetail
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { Key, Values }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.SaglikcimUpdateDailyCheck(System.Object)">
+            <summary>
+            SaglikcimUpdateDailyCheckDetail
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {  Id, AlertDay, ExtraPhone, AlertDayCounter, AlertDayHours, userId = GetUser().Id  }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseAnaSayfa(System.Object)">
+            <summary>
+            NurseAnaSayfa
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId = GetUser().Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseUpdateUserInfo(System.Object)">
+            <summary>
+            NurseUpdateUserInfo
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id ,UserInfo ,userId = GetUser().Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseupdateUserDailycheckDetails(System.Object)">
+            <summary>
+            NurseupdateUserDailycheckDetails
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id,deleted,added}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseGecmisPaketler(System.Object)">
+            <summary>
+            NurseGecmisPaketler
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {name, userId = GetUser().Id }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseGetPackagesValues(System.Object)">
+            <summary>
+            NurseGetPackagesValues
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id ,userId = GetUser().Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseGetPackagesValuesPackagesGet">
+            <summary>
+            NurseGetPackagesValuesPackagesGet
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseGetDailyCheckDetail(System.Object)">
+            <summary>
+            NurseGetDailyCheckDetail
+            </summary>
+            <param name="datas"></param>
+            /// <remarks>
+            {Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseUpdateDailyCheckDetail(System.Object)">
+            <summary>
+            NurseUpdateDailyCheckDetail
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Key, Values}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DailyCheckController.NurseCreateDailyCheckDetail(System.Object)">
+            <summary>
+            NurseCreateDailyCheckDetail
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id,Values,files}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.Get">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.TibbiBirimler">
+            <summary>
+            TibbiBirimler
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.SelectedDepartment(System.Object)">
+            <summary>
+            SelectedDepartment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {BolumAdi}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.GetDoctor(System.Object)">
+            <summary>
+            GetDoctor
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {selectedDepartmentId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.RelUserDepartmentGet(System.Object)">
+            <summary>
+            RelUserDepartmentGet
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {departmentId,userId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.relUserDepartments(System.Object)">
+            <summary>
+            relUserDepartments
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {doctorDepartment,userId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DepartmentController.DoctorAnasayfa(System.Object)">
+            <summary>
+            DoctorAnasayfa
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {userId=user.Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorController.Get">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorController.Get(System.Int32)">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {UserId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorController.Post(System.Object)">
+            <summary>
+            Post
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {UserId = userappointment.DoctorId }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.Address(System.Object)">
+            <summary>
+            Address
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.UpdateUser(System.Object)">
+            <summary>
+            UpdateUser
+            </summary>
+            <param name="datas"></param>
+             <remarks>
+            {user}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.AppointmentAdd(System.Object)">
+             <summary>
+             AppointmentAdd
+             </summary>
+             <param name="datas"></param>
+            <remarks>
+             {newappointment,user}
+             </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.AppointmentAddMulti(System.Object)">
+            <summary>
+            AppointmentAddMulti
+            </summary>
+            <param name="datas"></param>
+            
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.UserDetailAppointment(System.Object)">
+            <summary>
+            UserDetailAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { sessionkey }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.UserDetail(System.Object)">
+            <summary>
+            GetDailyCheck
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { UserId = userappointment.UserId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.Appointments(System.Object)">
+            <summary>
+            Appointments
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {UserId=userappointment.UserId,DoctorId=user.Id}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.DoctorName(System.Object)">
+            <summary>
+            DoctorName
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {DoctorId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.UserAppointment(System.Object)">
+            <summary>
+            UserAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {sessionkey}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.DeleteAppointment(System.Object)">
+            <summary>
+            DeleteAppointment
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {sessionkey,deleteReason,userId=user.Id }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.AppointmentProcessAdd(System.Object)">
+            <summary>
+            AppointmentProcessAdd
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {appointment, user, deleteReason }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.GetDonations(System.Object)">
+             <summary>
+             GetDonations
+             </summary>
+             <param name="datas"></param>
+            <remarks>
+             {appointmentId}
+             </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:API.Controllers.DoctorPanelController.GecmisRandevular(System.Object)">
+            <summary>
+            GecmisRandevular
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {UserId=user.Id }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.Kayit(System.Object)">
+            <summary>
+            Kayit
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            { user }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.KayitKontrol(System.Object)">
+            <summary>
+            KayitKontrol
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Email=user.Email,Phone=user.Phone };
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.GirisUserGet(System.Object)">
+            <summary>
+            GirisUserGet
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+             { Email, Password }
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.GetDoctorType(System.Object)">
+            <summary>
+            GetDoctorType
+            </summary>
+            <param name="datas"></param>
+            /// <remarks>
+            {IsDoctor}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.GetHastaType">
+            <summary>
+            GetHastaType
+            </summary>
+            <param name="datas"></param>
+            /// <remarks>
+            {}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.GetAddressType">
+            <summary>
+            GetAddressType
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.KayitController.GetRoleGroup">
+            <summary>
+            GetRoleGroup
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.LogsController.LogsAdd(System.Object)">
+            <summary>
+            Logları Kaydetme
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {page}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserSecurityController.GetUser(System.Object)">
+            <summary>
+            GetUser
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {Id=userid}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserSecurityController.DoctorGetUser(System.Object)">
+            <summary>
+            DoctorGetUser
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineSaglikcimJWTDeneme.Controllers.LoginController.Login(System.Object)">
+            <summary>
+            Login
+            </summary>
+            <param name="datas"></param>
+            /// <remarks>
+            {user.Email,user.Password}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineSaglikcimJWTDeneme.Controllers.LoginController.Get">
+            <summary>
+            Departmanları Getiren Fonksiyon
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

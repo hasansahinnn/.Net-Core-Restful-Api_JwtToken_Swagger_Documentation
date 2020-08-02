@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.CityController.Get(System.Object)">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {CountryId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CountryController.Get">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CountyController.Get(System.Object)">
+            <summary>
+            Get
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {CityId}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.LogsController.LogsAdd(System.Object)">
+            <summary>
+            Logları Kaydetme
+            </summary>
+            <param name="datas"></param>
+            <remarks>
+            {page}
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineSaglikcimJWTDeneme.Controllers.LoginController.Login(System.Object)">
+            <summary>
+            Login
+            </summary>
+            <param name="datas"></param>
+            /// <remarks>
+            {user.Email,user.Password}
+            </remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
